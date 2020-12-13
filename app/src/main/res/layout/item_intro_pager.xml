@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_margin="24dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/intro_title_txt_view"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_launcher_background"
+        android:id="@+id/intro_pager_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_above="@id/intro_description_txt_view"
+        android:layout_marginTop="16dp"
+        android:id="@+id/intro_title_txt_view"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:text="We Care"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:text="Sanitize your work station at lower cost."
+        android:id="@+id/intro_description_txt_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

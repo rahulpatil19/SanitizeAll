@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">SanitizeAll</string>
+
+    <string name="intro_title_one">Title one</string>
+    <string name="intro_title_two">Title Two</string>
+    <string name="intro_title_three">Title Three</string>
+
+    <string name="intro_description_one">It is a bill reminder apps which allows you to create a reminder
+    to pay your bills on time</string>
+
+    <string name="intro_description_two">It is a personal finance tracker app which helps you to track your pay easily.</string>
+
+    <string name="intro_description_three">Reminder can help you to pay the bill on time so that you can avoid the extra charges
+    on it</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_mobile_number">Mobile Number</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_company_name">Company Name</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_size">Build up area(Square ft.)</string>
+    <string name="register_for_sanitization">Book for Sanitization</string>
+    <string name="title_settings">Settings</string>
+    <string name="booking_help_text">Our team will contact you for timing through call after booking.</string>
+    <string name="booking_help_text_second">Note : Currently we are accepting bookings for Indore location only.</string>
+    <string name="hint_select_date">Select Date</string>
+    <string name="login_help_text">Simply book to sanitize your place</string>
+    <string name="hint_otp">OTP</string>
+    <string name="message_otp">Please check your messages for OTP</string>
+    <string name="hint_place_type">Place type</string>
+    <string name="error_empty">Cannot be empty</string>
+    <string name="message_mobile">We will send you an OTP on your mobile \n Sms charges may apply.</string>
+    <string name="app_version">Version 2.0</string>
+    <string name="title_privacy_policy">Privacy policy</string>
+    <string name="title_about_us">About Us</string>
+    <string name="title_logout">Logout</string>
+    <string name="info_logout">Are you sure you want to logout?</string>
+    <string name="contact_number">Contact number : +919479837387, \n +918962226705, +918107470741</string>
+    <string name="info_email">Email : sanitize4all@gmail.com</string>
+    <string name="booking_success_text">You have successfully booked a date for our Sanitization service, our team will contact you for timing through call.</string>
+    <string name="all_bookings">All Bookings</string>
+    <string name="title_my_bookings">My Bookings</string>
+    <string name="title_admin_bookings">Admin Bookings</string>
+    <string name="error_something_wrong">Something went wrong</string>
+
+</resources>

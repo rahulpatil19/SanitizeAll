@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_above="@id/intro_continue_btn"
+        android:id="@+id/intro_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/circle_indicator"
+        android:layout_margin="28dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        app:ci_drawable="@drawable/ic_dot_black"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/intro_continue_btn"
+        android:gravity="center"
+        android:minWidth="140dp"
+        android:layout_margin="28dp"
+        android:padding="12dp"
+        android:visibility="invisible"
+        android:background="@drawable/bg_solid_round_gray"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="12dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/booking_fullname_tv"
+                android:textSize="16sp"
+                android:textColor="@color/colorAccent"
+                tools:text="Rahul Patil"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/booking_date_tv"
+                android:textSize="16sp"
+                android:textColor="@color/colorBlack"
+                tools:text="22/10/2020"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/booking_mobile_tv"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            tools:text="Contact no - 8928394234"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/booking_email_tv"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            tools:text="xyz@gmail.com"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/booking_address_tv"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            tools:text="Address - Vijay nagar, Indore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/booking_buildup_area_tv"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            tools:text="Buildup Area - 400 Square/ft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/booking_place_type_tv"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            tools:text="Place Type - Home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
